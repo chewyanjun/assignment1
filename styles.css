@@ -1,0 +1,51 @@
+
+* {
+  box-sizing: border-box;
+  font-family: Times New Roman;
+  }
+
+body {
+  margin: 0;
+  font-family: Times New Roman;
+  }
+
+.topnav {
+  overflow: hidden;
+  Background-color:rgb(0,70,110);
+  Top: 0;
+  Width: 100%;
+  Position: fixed;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 120px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  Background-color:skyblue;
+  color: black;
+}
+
+.content {
+  background-color:beige;
+  text-align: center;
+  padding: 10px;
+  height: 2000px; 
+}
+
+.footer {
+  background-color: white;
+  text-align: center;
+  padding: 4px;
+  Font-size: 10px
+}
+
+.clicked {
+ Background-color:skyblue;
+  color: black;
+}
